@@ -1,0 +1,7 @@
+#include "keebar.dtsi"
+
+&kscan0 {};
+
+&right_encoder {
+	status = "okay";
+};

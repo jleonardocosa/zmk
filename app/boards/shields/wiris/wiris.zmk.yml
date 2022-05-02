@@ -1,0 +1,10 @@
+file_format: "1"
+id: wiris
+name: Wiris
+type: shield
+features:
+  - keys
+siblings:
+  - wiris_left
+  - wiris_right
+  - wiris_dongle

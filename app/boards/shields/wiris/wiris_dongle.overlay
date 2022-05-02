@@ -1,0 +1,17 @@
+/*
+ * Copyright (c) 2022 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include "wiris.dtsi"
+
+&default_transform {
+     col-offset = <56>;
+};
+
+&kscan0 {
+    input-gpios
+        = <&gpio0 4 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+        ;
+};

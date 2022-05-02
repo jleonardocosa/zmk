@@ -1,0 +1,9 @@
+# Copyright (c) 2020 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+config SHIELD_WIRIS_LEFT
+	def_bool $(shields_list_contains,wiris_left)
+config SHIELD_WIRIS_RIGHT
+	def_bool $(shields_list_contains,wiris_right)
+config SHIELD_WIRIS_DONGLE
+	def_bool $(shields_list_contains,wiris_dongle)

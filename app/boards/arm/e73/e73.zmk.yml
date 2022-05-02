@@ -1,0 +1,9 @@
+file_format: "1"
+id: e73
+name: EByte E73-2G4M08S1C(X) NRF52840 Module
+type: board
+arch: arm
+outputs:
+  - usb
+  - ble
+exposes: [ebyte_e73]

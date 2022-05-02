@@ -1,0 +1,9 @@
+# E73 E01-2G4M08S1C(X) board configuration
+
+# Copyright (c) 2020 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+config BOARD_E73
+	bool "e73"
+	depends on SOC_NRF52840_QIAA
+

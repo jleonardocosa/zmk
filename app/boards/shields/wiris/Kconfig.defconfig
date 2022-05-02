@@ -1,0 +1,17 @@
+
+if SHIELD_WIRIS_DONGLE
+
+config ZMK_KEYBOARD_NAME
+	default "Wiris"
+
+config ZMK_SPLIT_BLE_ROLE_CENTRAL
+	default y
+
+endif
+
+if SHIELD_WIRIS_LEFT || SHIELD_WIRIS_RIGHT || SHIELD_WIRIS_DONGLE
+
+config ZMK_SPLIT
+	default y
+
+endif

@@ -1,0 +1,7 @@
+file_format: "1"
+id: keebar
+name: Keebar
+type: shield
+features:
+  - keys
+  - encoder
