@@ -2,7 +2,7 @@
 if SHIELD_LILY58_DONGLE
 
 config ZMK_KEYBOARD_NAME
-	default "Lily58"
+	default "Lily58 Dongle"
 
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
 	default y
