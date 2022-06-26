@@ -7,4 +7,4 @@ outputs:
   - usb
   - ble
 url: https://www.nordicsemi.com/Products/Development-hardware/nrf52840-dongle
-exposes: [nordic_nrf52840_usb_dongle]
+exposes: [pro_micro]
