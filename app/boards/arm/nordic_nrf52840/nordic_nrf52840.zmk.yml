@@ -1,0 +1,10 @@
+file_format: "1"
+id: nordic_nrf52840
+name: Nordic nRF52840 USB Dongle
+type: board
+arch: arm
+outputs:
+  - usb
+  - ble
+url: https://www.nordicsemi.com/Products/Development-hardware/nrf52840-dongle
+exposes: [nordic_nrf52840_usb_dongle]
