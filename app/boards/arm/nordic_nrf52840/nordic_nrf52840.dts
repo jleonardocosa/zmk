@@ -61,6 +61,12 @@
 	status = "okay";
 };
 
+&i2c0 {
+	compatible = "nordic,nrf-twi";
+	sda-pin = <17>;
+	scl-pin = <20>;
+};
+
 &usbd {
 	compatible = "nordic,nrf-usbd";
 	status = "okay";
