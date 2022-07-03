@@ -63,8 +63,8 @@
 
 &i2c0 {
 	compatible = "nordic,nrf-twi";
-	sda-pin = <17>;
-	scl-pin = <20>;
+	sda-pin = <22>;
+	scl-pin = <24>;
 };
 
 &usbd {
