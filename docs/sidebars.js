@@ -33,6 +33,7 @@ module.exports = {
       "behaviors/tap-dance",
       "behaviors/caps-word",
       "behaviors/key-repeat",
+      "behaviors/sensor-rotate",
       "behaviors/reset",
       "behaviors/bluetooth",
       "behaviors/outputs",
@@ -68,6 +69,7 @@ module.exports = {
         items: [
           "development/new-shield",
           "development/hardware-metadata-files",
+          "development/new-behavior",
         ],
       },
     ],
