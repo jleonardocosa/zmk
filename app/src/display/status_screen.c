@@ -52,9 +52,9 @@ lv_obj_t *zmk_display_status_screen() {
     zmk_widget_battery_status_init(&battery_status_widget, screen);
     lv_obj_align(zmk_widget_battery_status_obj(&battery_status_widget), NULL, LV_ALIGN_IN_TOP_RIGHT,
                  0, 0);
-    if (CONFIG_SHIELD_LILY58_RIGHT)
-        lv_obj_align(zmk_widget_battery_status_obj(&battery_status_widget), NULL, LV_ALIGN_IN_TOP_LEFT,
-                 0, 0);
+    // if (CONFIG_SHIELD_LILY58_RIGHT)
+    //     lv_obj_align(zmk_widget_battery_status_obj(&battery_status_widget), NULL, LV_ALIGN_IN_TOP_LEFT,
+    //              0, 0);
     
 #endif
 
