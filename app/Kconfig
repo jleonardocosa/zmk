@@ -465,6 +465,9 @@ config LOG_BUFFER_SIZE
 config LOG_STRDUP_BUF_COUNT
 	default 16
 
+config LOG_PROCESS_THREAD_SLEEP_MS
+	default 100
+
 #ZMK_USB_LOGGING || ZMK_RTT_LOGGING
 endif
 
