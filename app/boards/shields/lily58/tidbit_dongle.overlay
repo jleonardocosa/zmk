@@ -9,3 +9,8 @@
     &default_transform {
         col-offset = <12>;
     };
+
+    &encoder_1_top_row {
+        status = "okay";
+    };
+    
